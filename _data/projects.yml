@@ -1,0 +1,29 @@
+- name: Peg Game
+  img: https://raw.githubusercontent.com/chrisdana/watch-peg-game/main/readme_images/screen1.png
+  desc: >
+        A classic brain teaser that involves arranging 15 golf tees (or pegs) 
+        in an equilateral triangle on a board. One peg is then removed creating 
+        an available hole. The goal is to jump over each peg with another peg, 
+        removing the jumped-over peg, until only one remains. It is recreated 
+        here for the Apple Watch.
+  uses: Swift, SwiftUI, watchOS, XCTest, XCUITest
+  link: https://github.com/chrisdana/watch-peg-game
+- name: Peg Game Solver
+  img: https://raw.githubusercontent.com/chrisdana/peg-game-solver/main/readme_images/screen1.png
+  desc: >
+        Having trouble with the Peg game above? There are many solutions 
+        published on the internet and this program adds to them. However, this 
+        program will also solve game boards with 4 and 6 rows, in case you're 
+        interested.
+  uses: C, Python, CMake
+  link: https://github.com/chrisdana/peg-game-solver
+- name: Jump To The Recipe
+  img: assets/images/jttr.jpg
+  desc: >
+        A 100% text-based recipe website that eschews long descriptions, stories, 
+        images, ads, and any other bloat the comes between the recipe and the 
+        cook. It is designed to display pleasantly on screen sizes from mobile 
+        phones to desktop monitors. Currently under-development and not yet 
+        published.
+  uses: Python, Flask, Jinja2, SQLAlchemy, SQLite, Bootstrap CSS
+  link: "#"
