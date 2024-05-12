@@ -11,11 +11,10 @@
 - name: Peg Game Solver
   img: https://raw.githubusercontent.com/chrisdana/peg-game-solver/main/readme_images/screen1.png
   desc: >
-        Having trouble with the Peg game above? There are many solutions 
-        published on the internet and this program adds to them. However, this 
-        program will also solve game boards with 4 and 6 rows, in case you're 
-        interested.
-  uses: C, Python, CMake
+        Having trouble with the Peg game above? In addition to the many solutions 
+        published on the internet, this program will solve game boards with 
+        4, 5, or 6 rows. Both Python and C versions are provided.
+  uses: C, CMake, Python
   link: https://github.com/chrisdana/peg-game-solver
 - name: Jump To The Recipe
   img: assets/images/jttr.jpg
@@ -27,3 +26,13 @@
         published.
   uses: Python, Flask, Jinja2, SQLAlchemy, SQLite, Bootstrap CSS
   link: "#"
+- name: This Website
+  img: assets/images/fun_proj04.png
+  desc: >
+        This website is generated and served via GitHub Pages and customized using 
+        Jekyll, a static site generator. By utilizing the Liquid template language, 
+        formatting and content can be updated easily and independently. The frontend 
+        is powered by Bootstrap CSS and extended with Material Design for Bootstrap 
+        (MDB) and the Animate-on-scroll (AOS) library.
+  uses: GitHub, Jekyll, Liquid, Bootstrap, MDB, AOS
+  link: https://chrisdana.github.io/

@@ -1,0 +1,52 @@
+- name: UAV
+  img: assets/images/proj1.png
+  desc: >
+        During the development of a consumer-grade unmanned aerial vehicle (UAV), 
+        a tight feedback loop was necessary for firmware engineers to rapidly verify 
+        changes. This was made possible by automating hardware-in-the-loop (HIL/HITL) 
+        testing against a virtual 3D environment (jMAVSim). To integrate into the 
+        existing automation framework, control messages were automatically parsed 
+        from C source files and regenerated in Ruby.
+  categories: Automation 
+  uses: C, Ruby, minitest, USB, UART, HIL
+- name: Tablet
+  img: assets/images/proj2.png
+  desc: >
+        Automation was heavily leveraged as part of verifying the Wi-Fi subsystem 
+        integration of one of the first highly-affordable families of consumer 
+        tablets. Compatibility tests with popular access points were scripted via 
+        Selenium and on-device stress tests found rare-but-critical bugs. In this 
+        way, both test coverage and depth were expanded without increasing test 
+        cycle durations.
+  categories: Automation 
+  uses: Android, ADB, Python, Selenium, Robotium
+- name: Headphone
+  img: assets/images/proj3.png
+  desc: >
+        Similar to previous projects, test automation was used to provide fast 
+        feedback about firmware builds for a pair of premium headphones. In addition, 
+        long-running battery drain and charging tests were automated to obviate the 
+        need for manual intervention. This allowed for more data points to be captured 
+        and gave a clearer picture of performance.
+        <br>
+        For the follow-on product, I moved to firmware development and was tasked with 
+        integrating a fuel gauge (TI BQ27421) and touch controller (ATTiny16x). When 
+        capacitive touch signal noise issues were encountered, collaborative efforts 
+        with the EE team were able to isolate the issue (chip-internal noise on certain 
+        pins) and work around it.
+  categories: Automation, Firmware
+  uses: Python, ADB, C, I2C, Lab Equipment (Multimeters, Protocol Analyzers, etc.)
+- name: Audio SDK
+  img: assets/images/proj4.png
+  desc: >
+        A professional audio encoder SDK product written in C/C++ had become increasingly 
+        difficult to maintain due to the number and complexity of manual steps involved 
+        in building, testing and releasing it. In addition to feature development duties, 
+        I was passionate about solving these operational difficulties. As the migration 
+        point of contact for our team, I implemented much of the build system 
+        upgrades, designed/maintained our CI pipelines, and provided support to other 
+        developers. The overhaul to modern development workflows, build tools, and DevOps  
+        platform was made challenging by legacy dependencies, but resulted in a greatly 
+        accelerated and simplified CI/CD process.
+  categories: Software, DevOps 
+  uses: CMake, Conan, Git, GitLab, Python, Docker, VMWare, Ansible, AWS, Artifactory
