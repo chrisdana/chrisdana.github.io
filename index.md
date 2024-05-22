@@ -12,7 +12,7 @@ title: "CD Github Hub"
       <div class="flex-grow-1 ms-3">
         <h1 class="fw-lighter">Welcome</h1>
         <p class="fs-6 fw-lighter">
-          With a passion for engineering excellence and polished products, I thrive on developing high-quality software as well as developing tools that streamline the engineering process, ensuring efficiency and robustness. My experience spans software development (APIs and SDKs), firmware development, QA automation (software and consumer electronics), and DevOps, enabling me to understand and optimize the entire software ecosystem.
+          My name is Chris and I'm a software developer with experience spanning SDK development, firmware engineering, QA automation, and some DevOps thrown in there for good measure. This page outlines my experience as well as my professional and personal projects, so please have a look around.
         </p>
       </div>
     </div>

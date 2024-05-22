@@ -40,7 +40,7 @@ title: About
       <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{site.baseurl}}/assets/images/surfing.jpg" alt="Sutro Tower">
     </div>
     <div class="flex-grow-1 mx-5">
-      <h3 class="fw-lighter mt-2">I'll try to get outdoors whenever I can.</h3>
+      <h3 class="fw-lighter mt-2">I try to get outdoors whenever I can.</h3>
       <br>
       <h6 class="fw-lighter lh-base">
         Given the nature of sedentary office work, I make it a point to try and balance that with physical activities by getting outdoors whenever possible. Luckily, the temperate Bay Area often obliges with glorious weather. Levels of skill vary, but on any given day I may be surfing, weightlifting, or playing tennis, volleyball, or ultimate (frisbee).

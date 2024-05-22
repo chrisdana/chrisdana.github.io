@@ -1,40 +1,28 @@
 - name: Software Development
   icon: bi-code-slash
   desc: >
-        I strive to create software with enduring value, avoiding shortcuts, 
-        kludges, and hacks, no matter how tempting they might be in a moment 
-        of time pressure. In addition, I believe that remaining mindful of the balance
-        between efficiency and readability is paramount to successful software development.
-        There are performance-critical sections that may necessitate dense, 
-        heavily-optimized code, but the overall goal should always be clear, well-structured
-        code that is easy to follow and facilitates collaboration, maintenance, and debugging. 
+        Without trying to sound too meditative, my approach to software development is one of 
+        balance, for example the balance between complexity and maintainability or between 
+        optimization and reusability. I think this leads to software of enduring value and 
+        is always a goal for which I strive.
 - name: Firmware Development
   icon: bi-headphones
   desc: >
-        One area where performance-critical code is ubiquitous is firmware development, my 
-        enjoyment of which stems from a sense of 
-        craftsmanship in meticulously crafting code to optimize resources, meet real-time 
-        constraints, and ensure reliability. It's thrilling to overcome hardware limitations 
-        and squeeze every ounce of performance from challenging environments. Moreover, seeing the 
-        tangible results, whether it's a blinking LED, a responsive touch interface, or 
-        a smoothly operating robotic arm, instills a profound sense of accomplishment.
+        There is something fulfilling about squeezing every bit of performance from challenging 
+        environments, and for me, firmware development provides that satisfaction. It's thrilling to 
+        overcome hardware limitations and see the tangible results as a system comes to life.
 - name: Test Automation
   icon: bi-camera2
   desc: >
-        Another area in which I celebrate my love of efficiency is as a software developer in 
-        test (SDET). By automating tests, not only does it free up manual testing bandwidth 
-        to solve larger challenges, but can also  provide consistent, repeatable data that 
-        track performance over the development process. This is especially powerful when 
-        contributing to the continuous integration and continuous delivery (CI/CD) pipeline, 
-        since bugs can be detected early in the development process, facilitating rapid 
-        feedback and iteration.
+        Another avenue I've found to scratch that efficiency itch is in test automation. Not 
+        only does it free up manual testing bandwidth to solve larger challenges, but can also
+        test deeper and further than would be otherwise feasible. The rapid feedback and iteration 
+        that this enables can be transformative and I love being a part of that.
 - name: DevOps
   icon: bi-stoplights
   desc: >
         Given the aforementioned, it makes sense that I would enjoy expanding into DevOps as well, 
-        finding it challenging and rewarding. The integration of diverse tools and technologies 
-        across the development pipeline ensures there is always something new and exciting to master. 
-        Rather than guessing or intuition, I prefer a data-driven approach when tuning a pipeline 
-        to balance speed, stability, and resource usage. That way, if improvements need to be made, 
-        the impacts of greater resources can be quantified and justified. When done correctly, DevOps 
-        can be transformative in streamlining software development and deployment.
+        since it can make a similar impact across the entire build, test, and release workflow. The 
+        integration of diverse tools and technologies ensures there is always something new and 
+        exciting to master. Knowing its integral importance to a project, the rewarding feeling of 
+        crafting a speedy and reliable CI pipeline is hard to match.
