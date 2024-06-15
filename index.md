@@ -37,7 +37,7 @@ title: "CD Github Hub"
   </div>
   <!-- Section: Nav Tabs -->
   <hr class="mt-5"/>
-  <h2 class="fw-lighter mt-5 mb-3">Selected Projets</h2>
+  <h2 class="fw-lighter mt-5 mb-3">Selected Projects</h2>
   <div class="mt-1 row justify-content-md-center shadow p-1 mb-1 bg-body-tertiary rounded">
     <div class="col-11">
       <nav>
