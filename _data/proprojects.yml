@@ -1,50 +1,49 @@
-- name: UAV
-  img: assets/images/proj1.png
+- name: Page Performance
+  gallery:
+    - src: assets/images/professional/proj5.png
+      width: 400
+      height: 420
+    - src: assets/images/professional/proj5-pipeline.png
+      width: 400
+      height: 338
   desc: >
-        During the development of a consumer-grade unmanned aerial vehicle (UAV), 
-        a tight feedback loop was necessary for firmware engineers to rapidly verify 
-        changes. This was made possible by automating hardware-in-the-loop (HIL/HITL) 
-        testing against a virtual 3D environment (jMAVSim). To integrate into the 
-        existing automation framework, control messages were automatically parsed 
-        from C source files and regenerated in Ruby.
-  categories: Automation 
-  uses: C, Ruby, minitest, USB, UART, HIL
-- name: Tablet
-  img: assets/images/proj2.png
+        I integrated SiteSpeed monitoring into a cloud-based network administration product so
+        performance data became part of the standard delivery workflow. Metrics were surfaced
+        through both built-in and custom workflows, with regression thresholds tuned to balance
+        early detection against false positives. Alerts were routed on failure so teams could
+        capture performance gains and prevent regressions from reintroducing slower page behavior.
+  categories: Automation, Webpage Performance, CI, Data Science
+  uses: Sitespeed.io, JS/TS, GitLab, Graphite, Grafana, OpenTelemetry, Prometheus, Pagerduty
+- name: Consumer Devices
+  gallery:
+    - src: assets/images/professional/proj1.png
+      width: 670
+      height: 327
+    - src: assets/images/professional/proj2.png
+      width: 217
+      height: 331
+    - src: assets/images/professional/proj3.png
+      width: 532
+      height: 616
   desc: >
-        Automation was heavily leveraged as part of verifying the Wi-Fi subsystem 
-        integration of one of the first highly-affordable families of consumer 
-        tablets. Compatibility tests with popular access points were scripted via 
-        Selenium and on-device stress tests found rare-but-critical bugs. In this 
-        way, both test coverage and depth were expanded without increasing test 
-        cycle durations.
-  categories: Automation 
-  uses: Android, ADB, Python, Selenium, Robotium
-- name: Headphone
-  img: assets/images/proj3.png
-  desc: >
-        Similar to previous projects, test automation was used to provide fast 
-        feedback about firmware builds for a pair of premium headphones. In addition, 
-        long-running battery drain and charging tests were automated to obviate the 
-        need for manual intervention. This allowed for more data points to be captured 
-        and gave a clearer picture of performance.
-        <br>
-        During development of the follow-on product (you guessed it, more headphones), 
-        capacitive touch noise issues were encountered. Through collaborative efforts 
-        with the EE team, the issue was isolated to chip-internal noise on certain 
-        pins and by rerouting those pins to non-touch functionality, costly changes 
-        were avoided.
+        Across consumer UAV, tablet, and headphone programs, I led automation efforts that improved
+        validation speed, expanded test coverage, and strengthened confidence in hardware and
+        firmware changes. The work ranged from hardware-in-the-loop verification for flight systems
+        to Wi-Fi integration testing on tablets and long-running battery, charging, and touch-noise
+        analysis on audio devices. The objective was consistent: deliver dependable coverage that
+        enabled teams to move faster with clearer data and lower risk.
   categories: Automation, Firmware
-  uses: Python, ADB, C, I2C, Lab Equipment (Multimeters, Protocol Analyzers, etc.)
+  uses: C, Ruby, minitest, USB, UART, HIL, Android, ADB, Python, Selenium, Robotium, I2C, Lab Equipment
 - name: Audio SDK
-  img: assets/images/proj4.png
+  img: assets/images/professional/proj4.png
+  width: 652
+  height: 566
   desc: >
-        A professional audio encoder SDK product written in C/C++ had become increasingly 
-        difficult to maintain due to the number and complexity of manual steps involved 
-        in building, testing and releasing it. The solution was an overhaul to a modern 
-        development workflow (modified Gitflow), build tools (CMake, Conan), and CI pipelines 
-        (GitLab). The final cutover had to be carefully coordinated among multiple teams 
-        that shared portions of the codebase, but once complete resulted in a greatly 
-        accelerated and simplified CI/CD process.
+        I led the modernization of a professional audio encoder SDK written in C/C++ that had
+        become difficult to maintain because of the manual effort required to build, test, and
+        release it. The effort replaced that process with a more disciplined development workflow,
+        modern build tooling, and automated CI pipelines, while coordinating carefully with the
+        teams that shared the codebase. The result was a simpler, faster, and more reliable
+        delivery process.
   categories: Software, DevOps 
   uses: CMake, Conan, Git, GitLab, Python, Docker, VMWare, Ansible, AWS, Artifactory

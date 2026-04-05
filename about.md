@@ -10,40 +10,40 @@ title: About
   <div class="mt-1 row" data-aos="flip-up">
     <div class="d-flex align-items-top">
       <div class="flex-shrink-0">
-        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{site.baseurl}}/assets/images/sutro.jpg" alt="Sutro Tower">
+        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/about/sutro.jpg' | relative_url }}" alt="Sutro Tower" width="665" height="666" loading="lazy" decoding="async">
       </div>
       <div class="flex-grow-1 mx-5">
         <div class="col w-75">
-          <h3 class="fw-lighter">I'm a software developer based in beautiful San Francisco, California.</h3>
+          <h3 class="fw-lighter">Based in San Francisco, California</h3>
         </div>
         <br>
         <h6 class="fw-lighter lh-base">
-          Originally from the SF Bay Area, I have lived in several cities up and down the California, but for the last decade-plus my home has been the City by the bay. When I'm not knee-deep in the hoopla, you'll find me cooking, listening to music, or doing something sporty.
+          I’m originally from the SF Bay Area and have spent time living in a few different cities around California, but San Francisco has been home for the last decade-plus. When I’m not knee-deep in the hoopla, I’m usually cooking, listening to music, or doing something sporty.
         </h6>
       </div>
     </div>
   </div>
   <div class="d-flex flex-row-reverse mt-3" data-aos="flip-down">
     <div class="flex-shrink-0">
-      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-start-pill" src="{{site.baseurl}}/assets/images/cat.jpg" alt="Super-cute cat">
+      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-start-pill" src="{{ '/assets/images/about/cat.jpg' | relative_url }}" alt="Super-cute cat" width="670" height="670" loading="lazy" decoding="async">
     </div>
     <div class="flex-grow-1 mx-5 text-end">
-      <h3 class="fw-lighter mt-2">I've always been an animal lover.</h3>
+      <h3 class="fw-lighter mt-2">Animal Lover</h3>
       <br>
       <h6 class="fw-lighter lh-base">
-        Having grown up with housepets most of my life, it is unfortunately only recently that my living situation has allowed me to get an animal. Since 2022, Allie Katt has been a faithful sidekick, mostly supporting me by napping in solidarity while I work. She also enforces breaks at play times and meal times.
+        I grew up with housepets for most of my life, so it was a long time coming before my living situation finally made room for one of my own. Since 2022, Allie Katt has been my loyal sidekick, mostly helping by napping in solidarity while I work. She also makes sure I take breaks for playtime and mealtime, whether I’m ready or not.
       </h6>
     </div>
   </div>
   <div class="d-flex flex-row mt-3" data-aos="flip-up">
     <div class="flex-shrink-0">
-      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{site.baseurl}}/assets/images/surfing.jpg" alt="Sutro Tower">
+      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/about/surfing.jpg' | relative_url }}" alt="Sutro Tower" width="333" height="333" loading="lazy" decoding="async">
     </div>
     <div class="flex-grow-1 mx-5">
-      <h3 class="fw-lighter mt-2">I try to get outdoors whenever I can.</h3>
+      <h3 class="fw-lighter mt-2">Outdoors</h3>
       <br>
       <h6 class="fw-lighter lh-base">
-        Given the nature of sedentary office work, I make it a point to try and balance that with physical activities by getting outdoors whenever possible. Luckily, the temperate Bay Area often obliges with glorious weather. Levels of skill vary, but on any given day I may be surfing, weightlifting, or playing tennis, volleyball, or ultimate (frisbee).
+        Since so much of work happens sitting down, I try to balance it out by getting outdoors whenever I can. Luckily, the Bay Area usually makes that easy with its pretty incredible weather. Skill levels vary, but on any given day I might be surfing, lifting weights, or playing tennis, volleyball, or ultimate frisbee.
       </h6>
     </div>
   </div>

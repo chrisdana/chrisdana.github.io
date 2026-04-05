@@ -1,5 +1,49 @@
+- name: Workout Tracker
+  img: assets/images/fun/workoutbuddy1.png
+  width: 480
+  height: 855
+  gallery:
+    - src: assets/images/fun/workoutbuddy1.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/workoutbuddy2.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/workoutbuddy3.png
+      width: 480
+      height: 855
+  desc: >
+        Workout Tracker is a fully featured cross-platform app for planning,
+        logging, and reviewing weightlifting workouts. It is designed to feel
+        intuitive and modern while tracking and displaying the metrics that
+        matter most for training progress.
+  uses: React, Vite, Tailwind CSS, PWA, Flask, SQLAlchemy, Postgres, Vitest, jsdom, React Testing Library
+  link: "https://workoutbuddy.win/"
+- name: Recipe Website
+  img: assets/images/fun/milkandcookies1.png
+  width: 480
+  height: 855
+  gallery:
+    - src: assets/images/fun/milkandcookies1.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/milkandcookies2.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/milkandcookies3.png
+      width: 480
+      height: 855
+  desc: >
+        Self-hosted recipe platform for browsing, searching, and publishing
+        recipes with a clean, intuitive experience that helps cooks move faster.
+        Includes ratio-aware ingredient scaling for simple resizing and supports
+        both US and metric units for flexible prep and execution.
+  uses: SvelteKit, PocketBase, Docker Compose, Vitest, Playwright
+  link: "https://milkandcookies.win/"
 - name: Peg Game
-  img: https://raw.githubusercontent.com/chrisdana/watch-peg-game/main/readme_images/screen1.png
+  img: assets/images/fun/peg-game.png
+  width: 396
+  height: 484
   desc: >
         A classic brain teaser that involves arranging 15 golf tees (or pegs) 
         in an equilateral triangle on a board. One peg is then removed creating 
@@ -8,31 +52,3 @@
         here for the Apple Watch.
   uses: Swift, SwiftUI, watchOS, XCTest, XCUITest
   link: https://github.com/chrisdana/watch-peg-game
-- name: Peg Game Solver
-  img: https://raw.githubusercontent.com/chrisdana/peg-game-solver/main/readme_images/screen1.png
-  desc: >
-        Having trouble with the Peg game above? In addition to the many solutions 
-        published on the internet, this program will solve game boards with 
-        4, 5, or 6 rows. Both Python and C versions are provided.
-  uses: C, CMake, Python
-  link: https://github.com/chrisdana/peg-game-solver
-- name: Jump To The Recipe
-  img: assets/images/jttr.jpg
-  desc: >
-        A 100% text-based recipe website that eschews long descriptions, stories, 
-        images, ads, and any other bloat the comes between the recipe and the 
-        cook. It is designed to display pleasantly on screen sizes from mobile 
-        phones to desktop monitors. Currently under-development and not yet 
-        published.
-  uses: Python, Flask, Jinja2, SQLAlchemy, SQLite, Bootstrap CSS
-  link: "#"
-- name: This Website
-  img: assets/images/fun_proj04.png
-  desc: >
-        This website is generated and served via GitHub Pages and customized using 
-        Jekyll, a static site generator. By utilizing the Liquid template language, 
-        formatting and content can be updated easily and independently. The frontend 
-        is powered by Bootstrap CSS and extended with Material Design for Bootstrap 
-        (MDB) and the Animate-on-scroll (AOS) library.
-  uses: GitHub, Jekyll, Liquid, Bootstrap, MDB, AOS
-  link: https://chrisdana.github.io/
