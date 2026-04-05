@@ -16,6 +16,10 @@
   overflow: hidden;
 }
 
+.proproject-gallery {
+  overflow: visible;
+}
+
 .project-gallery .carousel-inner,
 .project-gallery .carousel-item {
   width: 100%;
@@ -38,6 +42,14 @@
 
 .project-gallery .carousel-control-next {
   right: 0.15rem;
+}
+
+.proproject-gallery .carousel-control-prev {
+  left: -2.25rem;
+}
+
+.proproject-gallery .carousel-control-next {
+  right: -2.25rem;
 }
 
 .project-gallery .carousel-control-prev-icon,

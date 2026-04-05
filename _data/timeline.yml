@@ -1,11 +1,11 @@
 - name: Software Development
   icon: bi-code-slash
   desc: >
-        Software development is being transformed by the revolution in AI-assisted coding, 
-        and that shift has made speed and quality easier to achieve at the same time. To turn 
-        that advantage into production-ready software, I believe it is essential to apply best 
-        practices, thoughtful guardrails, and disciplined review so the final result is robust, 
-        maintainable, and built to last.
+        Software development is being transformed by the revolution in AI coding (whether assisted, 
+        agentic, or autonomous), and that shift has made speed and quality easier to achieve at the 
+        same time. To turn that advantage into production-ready software, I believe it is essential 
+        to apply best practices, thoughtful guardrails, and disciplined review so the final result 
+        is robust, maintainable, and built to last.
 - name: Firmware Development
   icon: bi-headphones
   desc: >

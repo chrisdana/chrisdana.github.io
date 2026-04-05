@@ -1,15 +1,15 @@
 - name: Workout Tracker
-  img: assets/images/projects/workoutbuddy1.png
+  img: assets/images/fun/workoutbuddy1.png
   width: 480
   height: 855
   gallery:
-    - src: assets/images/projects/workoutbuddy1.png
+    - src: assets/images/fun/workoutbuddy1.png
       width: 480
       height: 855
-    - src: assets/images/projects/workoutbuddy2.png
+    - src: assets/images/fun/workoutbuddy2.png
       width: 480
       height: 855
-    - src: assets/images/projects/workoutbuddy3.png
+    - src: assets/images/fun/workoutbuddy3.png
       width: 480
       height: 855
   desc: >
@@ -20,17 +20,17 @@
   uses: React, Vite, Tailwind CSS, PWA, Flask, SQLAlchemy, Postgres, Vitest, jsdom, React Testing Library
   link: "https://workoutbuddy.win/"
 - name: Recipe Website
-  img: assets/images/projects/milkandcookies1.png
+  img: assets/images/fun/milkandcookies1.png
   width: 480
   height: 855
   gallery:
-    - src: assets/images/projects/milkandcookies1.png
+    - src: assets/images/fun/milkandcookies1.png
       width: 480
       height: 855
-    - src: assets/images/projects/milkandcookies2.png
+    - src: assets/images/fun/milkandcookies2.png
       width: 480
       height: 855
-    - src: assets/images/projects/milkandcookies3.png
+    - src: assets/images/fun/milkandcookies3.png
       width: 480
       height: 855
   desc: >
@@ -41,7 +41,7 @@
   uses: SvelteKit, PocketBase, Docker Compose, Vitest, Playwright
   link: "https://milkandcookies.win/"
 - name: Peg Game
-  img: assets/images/projects/peg-game.png
+  img: assets/images/fun/peg-game.png
   width: 396
   height: 484
   desc: >

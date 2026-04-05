@@ -7,7 +7,7 @@ title: "CD Github Hub"
   <div class="mt-5 row">
     <div class="d-flex align-items-center">
       <div class="flex-shrink-0">
-        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-circle" data-aos="fade-in" data-aos-duration="1000" src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="headshot" width="200" height="200" loading="eager" fetchpriority="high" decoding="async">
+        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-circle" data-aos="fade-in" data-aos-duration="1000" src="{{ '/assets/images/about/headshot.jpg' | relative_url }}" alt="headshot" width="200" height="200" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <div class="flex-grow-1 ms-3">
         <h1 class="fw-lighter">Welcome</h1>
@@ -37,7 +37,7 @@ title: "CD Github Hub"
   </div>
   <!-- Section: Nav Tabs -->
   <hr class="mt-5"/>
-  <h2 class="fw-lighter mt-5 mb-3">Selected Professional Projects</h2>
+  <h2 class="fw-lighter mt-5 mb-3">Professional Projects</h2>
   <div class="mt-1 row justify-content-md-center shadow p-1 mb-1 bg-body-tertiary rounded">
     <div class="col-11">
       <nav>
@@ -64,7 +64,34 @@ title: "CD Github Hub"
              tabindex="0">
           <div class="d-flex align-items-center">
             <div class="flex-shrink-0 ">
+              {% if item.gallery %}
+              <div id="proproject-{{ forloop.index0 }}-carousel" class="project-gallery proproject-gallery carousel slide carousel-fade" data-bs-ride="false">
+                <div class="carousel-inner">
+                  {% for image in item.gallery %}
+                  <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <img
+                      class="d-block img-project-shot rounded-6 p-3"
+                      src="{{ image.src | relative_url }}"
+                      alt="{{ item.name }} screenshot {{ forloop.index }}"
+                      width="{{ image.width }}"
+                      height="{{ image.height }}"
+                      loading="lazy"
+                      decoding="async">
+                  </div>
+                  {% endfor %}
+                </div>
+                {% if item.gallery.size > 1 %}
+                <button class="carousel-control-prev project-carousel-control" type="button" data-bs-target="#proproject-{{ forloop.index0 }}-carousel" data-bs-slide="prev" aria-label="Previous screenshot">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next project-carousel-control" type="button" data-bs-target="#proproject-{{ forloop.index0 }}-carousel" data-bs-slide="next" aria-label="Next screenshot">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+                {% endif %}
+              </div>
+              {% else %}
               <img class="rounded-6 img-small" src="{{ item.img | relative_url }}" alt="{{ item.name }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy" decoding="async">
+              {% endif %}
             </div>
             <div class="flex-grow-1 mx-5">
               <h6 class="fw-lighter lh-base">{{ item.desc }}</h6>
