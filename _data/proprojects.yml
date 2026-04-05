@@ -1,5 +1,7 @@
 - name: UAV
   img: assets/images/proj1.png
+  width: 670
+  height: 327
   desc: >
         During the development of a consumer-grade unmanned aerial vehicle (UAV), 
         a tight feedback loop was necessary for firmware engineers to rapidly verify 
@@ -11,6 +13,8 @@
   uses: C, Ruby, minitest, USB, UART, HIL
 - name: Tablet
   img: assets/images/proj2.png
+  width: 217
+  height: 331
   desc: >
         Automation was heavily leveraged as part of verifying the Wi-Fi subsystem 
         integration of one of the first highly-affordable families of consumer 
@@ -22,6 +26,8 @@
   uses: Android, ADB, Python, Selenium, Robotium
 - name: Headphone
   img: assets/images/proj3.png
+  width: 532
+  height: 616
   desc: >
         Similar to previous projects, test automation was used to provide fast 
         feedback about firmware builds for a pair of premium headphones. In addition, 
@@ -38,6 +44,8 @@
   uses: Python, ADB, C, I2C, Lab Equipment (Multimeters, Protocol Analyzers, etc.)
 - name: Audio SDK
   img: assets/images/proj4.png
+  width: 652
+  height: 566
   desc: >
         A professional audio encoder SDK product written in C/C++ had become increasingly 
         difficult to maintain due to the number and complexity of manual steps involved 

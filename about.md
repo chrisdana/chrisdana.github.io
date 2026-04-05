@@ -10,7 +10,7 @@ title: About
   <div class="mt-1 row" data-aos="flip-up">
     <div class="d-flex align-items-top">
       <div class="flex-shrink-0">
-        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{site.baseurl}}/assets/images/sutro.jpg" alt="Sutro Tower">
+        <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/sutro.jpg' | relative_url }}" alt="Sutro Tower" width="665" height="666" loading="lazy" decoding="async">
       </div>
       <div class="flex-grow-1 mx-5">
         <div class="col w-75">
@@ -25,7 +25,7 @@ title: About
   </div>
   <div class="d-flex flex-row-reverse mt-3" data-aos="flip-down">
     <div class="flex-shrink-0">
-      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-start-pill" src="{{site.baseurl}}/assets/images/cat.jpg" alt="Super-cute cat">
+      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-start-pill" src="{{ '/assets/images/cat.jpg' | relative_url }}" alt="Super-cute cat" width="670" height="670" loading="lazy" decoding="async">
     </div>
     <div class="flex-grow-1 mx-5 text-end">
       <h3 class="fw-lighter mt-2">I've always been an animal lover.</h3>
@@ -37,7 +37,7 @@ title: About
   </div>
   <div class="d-flex flex-row mt-3" data-aos="flip-up">
     <div class="flex-shrink-0">
-      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{site.baseurl}}/assets/images/surfing.jpg" alt="Sutro Tower">
+      <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/surfing.jpg' | relative_url }}" alt="Sutro Tower" width="333" height="333" loading="lazy" decoding="async">
     </div>
     <div class="flex-grow-1 mx-5">
       <h3 class="fw-lighter mt-2">I try to get outdoors whenever I can.</h3>
