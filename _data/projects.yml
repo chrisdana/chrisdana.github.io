@@ -40,6 +40,26 @@
         both US and metric units for flexible prep and execution.
   uses: SvelteKit, PocketBase, Docker Compose, Vitest, Playwright
   link: "https://milkandcookies.win/"
+- name: "VinoVibe: AI Sommelier"
+  img: assets/images/fun/vinovibe-ai-sommelier-1.png
+  width: 480
+  height: 468
+  gallery:
+    - src: assets/images/fun/vinovibe-ai-sommelier-1.png
+      width: 480
+      height: 468
+    - src: assets/images/fun/vinovibe-ai-sommelier-2.png
+      width: 480
+      height: 471
+    - src: assets/images/fun/vinovibe-ai-sommelier-3.png
+      width: 480
+      height: 528
+  desc: >
+        An agent-based AI sommelier that recommends a bottle of wine from your
+        collection based on the food pairing, occasion, and even weather.
+        Access is invite only.
+  uses: React, TypeScript, Vite, Tailwind CSS, Firebase, Gemini 1.5 Flash via @google/genai
+  link: "https://vinovibe-ai-sommelier-558421329552.us-west2.run.app"
 - name: Peg Game
   img: assets/images/fun/peg-game.png
   width: 396
