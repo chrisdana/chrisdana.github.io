@@ -1,4 +1,4 @@
-- name: Workout Tracker
+- name: WorkoutBuddy Workout Tracker
   img: assets/images/fun/workoutbuddy1.png
   width: 480
   height: 855
@@ -13,13 +13,13 @@
       width: 480
       height: 855
   desc: >
-        Workout Tracker is a fully featured cross-platform app for planning,
+        WorkoutBuddy Workout Tracker is a fully featured web app for planning,
         logging, and reviewing weightlifting workouts. It is designed to feel
         intuitive and modern while tracking and displaying the metrics that
         matter most for training progress.
   uses: React, Vite, Tailwind CSS, PWA, Flask, SQLAlchemy, Postgres, Vitest, jsdom, React Testing Library
   link: "https://workoutbuddy.win/"
-- name: Recipe Website
+- name: Milk & Cookies Recipe Website
   img: assets/images/fun/milkandcookies1.png
   width: 480
   height: 855
@@ -34,12 +34,34 @@
       width: 480
       height: 855
   desc: >
-        Self-hosted recipe platform for browsing, searching, and publishing
+        Milk & Cookies is a recipe platform for browsing, searching, and publishing
         recipes with a clean, intuitive experience that helps cooks move faster.
         Includes ratio-aware ingredient scaling for simple resizing and supports
         both US and metric units for flexible prep and execution.
   uses: SvelteKit, PocketBase, Docker Compose, Vitest, Playwright
   link: "https://milkandcookies.win/"
+- name: Recipe Scale / Conversion Library
+  img: assets/images/fun/recipe-scale-conv-1.png
+  width: 480
+  height: 855
+  gallery:
+    - src: assets/images/fun/recipe-scale-conv-1.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/recipe-scale-conv-2.png
+      width: 480
+      height: 855
+    - src: assets/images/fun/recipe-scale-conv-3.png
+      width: 480
+      height: 855
+  desc: >
+        The ingredient scaling and unit conversion library that powers Milk & Cookies, 
+        built to be reusable in any JavaScript or TypeScript app. It handles fractional 
+        quantities, US/metric display, ingredient-specific cup-to-gram conversions, 
+        count ingredients like eggs, and configurable unit promotion/demotion.
+        Available via GitHub and NPM.
+  uses: JavaScript, TypeScript
+  link: "https://github.com/chrisdana/recipe-scale-conv-lib"
 - name: "VinoVibe: AI Sommelier"
   img: assets/images/fun/vinovibe-ai-sommelier-1.png
   width: 480
@@ -60,6 +82,30 @@
         Access is invite only.
   uses: React, TypeScript, Vite, Tailwind CSS, Firebase, Gemini 1.5 Flash via @google/genai
   link: "https://vinovibe-ai-sommelier-558421329552.us-west2.run.app"
+- name: "FlexLogic: AI Fitness Planner"
+  img: assets/images/fun/flexlogic-1.png
+  width: 560
+  height: 1116
+  gallery:
+    - src: assets/images/fun/flexlogic-1.png
+      width: 560
+      height: 1116
+    - src: assets/images/fun/flexlogic-2.png
+      width: 560
+      height: 1098
+    - src: assets/images/fun/flexlogic-3.png
+      width: 560
+      height: 1116
+    - src: assets/images/fun/flexlogic-4.png
+      width: 560
+      height: 1100
+  desc: >
+        An agent-based AI fitness planner that generates a workouts based on 
+        what you want to train, available equipment, and time available. It uses
+        historical workout data and progress to optimize your plan and help you 
+        meet your goals while fitting into your unique schedule. Access is invite only.
+  uses: React, TypeScript, Vite, Tailwind CSS, Firebase, Gemini 1.5 Flash via @google/genai
+  link: "https://flexlogic-898322307042.us-west2.run.app"
 - name: Peg Game
   img: assets/images/fun/peg-game.png
   width: 396

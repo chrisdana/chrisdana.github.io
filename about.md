@@ -8,12 +8,12 @@ title: About
     <h1 class="fw-lighter">About</h1>
   </div>
   <div class="mt-1 row" data-aos="flip-up">
-    <div class="d-flex align-items-top">
+    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start text-center text-md-start">
       <div class="flex-shrink-0">
         <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/about/sutro.jpg' | relative_url }}" alt="Sutro Tower" width="665" height="666" loading="lazy" decoding="async">
       </div>
-      <div class="flex-grow-1 mx-5">
-        <div class="col w-75">
+      <div class="flex-grow-1 mx-0 mx-md-5 mt-3 mt-md-0">
+        <div class="col about-heading">
           <h3 class="fw-lighter">Based in San Francisco, California</h3>
         </div>
         <br>
@@ -23,11 +23,11 @@ title: About
       </div>
     </div>
   </div>
-  <div class="d-flex flex-row-reverse mt-3" data-aos="flip-down">
+  <div class="d-flex flex-column flex-md-row-reverse align-items-center mt-3 text-center text-md-end" data-aos="flip-down">
     <div class="flex-shrink-0">
       <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-start-pill" src="{{ '/assets/images/about/cat.jpg' | relative_url }}" alt="Super-cute cat" width="670" height="670" loading="lazy" decoding="async">
     </div>
-    <div class="flex-grow-1 mx-5 text-end">
+    <div class="flex-grow-1 mx-0 mx-md-5 mt-3 mt-md-0">
       <h3 class="fw-lighter mt-2">Animal Lover</h3>
       <br>
       <h6 class="fw-lighter lh-base">
@@ -35,11 +35,11 @@ title: About
       </h6>
     </div>
   </div>
-  <div class="d-flex flex-row mt-3" data-aos="flip-up">
+  <div class="d-flex flex-column flex-md-row align-items-center mt-3 text-center text-md-start" data-aos="flip-up">
     <div class="flex-shrink-0">
       <img class="img-small shadow p-1 mb-1 bg-body-tertiary rounded-end-circle" src="{{ '/assets/images/about/surfing.jpg' | relative_url }}" alt="Sutro Tower" width="333" height="333" loading="lazy" decoding="async">
     </div>
-    <div class="flex-grow-1 mx-5">
+    <div class="flex-grow-1 mx-0 mx-md-5 mt-3 mt-md-0">
       <h3 class="fw-lighter mt-2">Outdoors</h3>
       <br>
       <h6 class="fw-lighter lh-base">
