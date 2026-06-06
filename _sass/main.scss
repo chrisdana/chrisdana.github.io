@@ -234,8 +234,132 @@
 }
 
 @media (min-width: 768px) {
+  .desktop-project-panel,
+  .fun-project-card {
+    border: 1px solid rgba(17, 24, 39, 0.08);
+    box-shadow: 0 0.85rem 2rem rgba(17, 24, 39, 0.08) !important;
+  }
+
+  .desktop-project-panel {
+    padding: 1.25rem !important;
+  }
+
   .nav-underline .nav-link {
-    font-size: 1.75rem;
+    border-radius: 0;
+    font-size: 1rem;
+    line-height: 1.25;
+    padding: 0.7rem 0.85rem;
+  }
+
+  .nav-underline .nav-link.active {
+    color: #212529 !important;
+  }
+
+  .proproject-desktop-layout,
+  .fun-project-desktop {
+    gap: 2rem;
+  }
+
+  .proproject-desktop-layout {
+    min-height: 23rem;
+    padding: 0.5rem 0.25rem 0.25rem;
+  }
+
+  .fun-project-card {
+    margin-bottom: 1rem !important;
+    padding: 1.25rem !important;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .fun-project-card:hover {
+    box-shadow: 0 1.1rem 2.5rem rgba(17, 24, 39, 0.11) !important;
+    transform: translateY(-2px);
+  }
+
+  .project-media {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-gallery {
+    background: linear-gradient(180deg, #ffffff 0%, #f3f5f7 100%);
+    border: 1px solid rgba(17, 24, 39, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85);
+    flex-basis: clamp(260px, 32vw, 340px);
+    height: 22rem;
+    width: clamp(260px, 32vw, 340px);
+  }
+
+  .project-gallery .carousel-inner {
+    border-radius: inherit;
+    height: 100%;
+  }
+
+  .project-gallery .carousel-item {
+    height: 100%;
+  }
+
+  .project-gallery .carousel-item.active,
+  .project-gallery .carousel-item-next,
+  .project-gallery .carousel-item-prev {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-project-shot {
+    height: 100%;
+    max-width: 100%;
+    min-height: 0;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .img-small {
+    max-width: 260px;
+  }
+
+  .project-copy {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 33rem;
+  }
+
+  .fun-project-desktop .project-copy h3 {
+    font-size: 1.45rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0.65rem;
+  }
+
+  .project-desc {
+    color: #343a40;
+    font-size: 1rem;
+    line-height: 1.62;
+    margin-bottom: 1rem;
+  }
+
+  .project-uses {
+    color: #5f6b76;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    margin-top: 0.35rem;
+  }
+
+  .project-link {
+    display: inline-flex;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+
+  .project-gallery .project-carousel-control {
+    transition: background-color 0.18s ease, transform 0.18s ease;
+  }
+
+  .project-gallery .project-carousel-control:hover {
+    background-color: rgba(17, 24, 39, 0.92);
+    transform: scale(1.06);
   }
 
   .site-footer {

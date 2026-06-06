@@ -85,7 +85,7 @@ title: "CD Github Hub"
       {% endfor %}
     </div>
   </div>
-  <div class="mt-1 row justify-content-md-center shadow p-2 p-md-1 mb-1 bg-body-tertiary rounded d-none d-md-flex">
+  <div class="desktop-project-panel mt-1 row justify-content-md-center shadow p-2 p-md-1 mb-1 bg-body-tertiary rounded d-none d-md-flex">
     <div class="col-12 col-md-11">
       <nav>
         <div class="nav nav-underline nav-fill" id="nav-tab" role="tablist">
@@ -109,8 +109,8 @@ title: "CD Github Hub"
              role="tabpanel" 
              aria-labelledby="nav-{{ forloop.index0 }}-tab" 
              tabindex="0">
-          <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start">
-            <div class="flex-shrink-0">
+          <div class="proproject-desktop-layout d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+            <div class="project-media flex-shrink-0">
               {% if item.gallery %}
               <div id="proproject-{{ forloop.index0 }}-carousel" class="project-gallery proproject-gallery carousel slide carousel-fade" data-bs-ride="false">
                 <div class="carousel-inner">
@@ -140,8 +140,8 @@ title: "CD Github Hub"
               <img class="rounded-6 img-small" src="{{ item.img | relative_url }}" alt="{{ item.name }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy" decoding="async">
               {% endif %}
             </div>
-            <div class="flex-grow-1 mx-0 mx-md-5 mt-3 mt-md-0">
-              <h6 class="fw-lighter lh-base">{{ item.desc }}</h6>
+            <div class="project-copy flex-grow-1 mx-0 mx-md-5 mt-3 mt-md-0">
+              <h6 class="project-desc fw-lighter lh-base">{{ item.desc }}</h6>
               <br>
               <p class="project-uses">Categories: {{ item.categories }}</p>
               <p class="project-uses">Used: {{ item.uses }}</p>
@@ -159,7 +159,7 @@ title: "CD Github Hub"
     <p class="fw-lighter">Personal projects to explore programming languages, platforms, technologies, etc. </p>
   </div>
   {% for item in site.data.projects %}
-  <div class="mt-3 row shadow p-2 p-md-1 mb-1 bg-body-tertiary rounded" data-aos="fade-in">
+  <div class="fun-project-card mt-3 row shadow p-2 p-md-1 mb-1 bg-body-tertiary rounded" data-aos="fade-in">
     <button class="fun-project-toggle d-flex d-md-none align-items-center justify-content-between w-100" type="button" data-bs-toggle="collapse" data-bs-target="#fun-project-{{ forloop.index0 }}" aria-expanded="false" aria-controls="fun-project-{{ forloop.index0 }}">
       <span>{{ item.name }}</span>
       <i class="bi bi-chevron-down" aria-hidden="true"></i>
@@ -187,7 +187,7 @@ title: "CD Github Hub"
         <div class="flex-grow-1 mt-3">
           <p class="fw-lighter">{{ item.desc }}</p>
           <p class="project-uses">Uses: {{ item.uses }}</p>
-          {% if item.link == "#" %}
+          {% if item.link == "#" or item.link == "N/A" %}
           <p class="project-link">Not Available</p>
           {% else %}
           <a class="link-primary project-link" href="{{ item.link }}">Link</a>
@@ -195,8 +195,8 @@ title: "CD Github Hub"
         </div>
       </div>
     </div>
-    <div class="d-none d-md-flex flex-md-row align-items-center text-md-start">
-      <div class="flex-shrink-0">
+    <div class="fun-project-desktop d-none d-md-flex flex-md-row align-items-center text-md-start">
+      <div class="project-media flex-shrink-0">
         {% if item.gallery %}
         <div id="project-{{ forloop.index0 }}-carousel" class="project-gallery carousel slide carousel-fade" data-bs-ride="false">
           <div class="carousel-inner">
@@ -226,11 +226,11 @@ title: "CD Github Hub"
         <img class="rounded-6 img-small p-3" src="{{ item.img | relative_url }}" alt="{{ item.name }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy" decoding="async">
         {% endif %}
       </div>
-      <div class="flex-grow-1 ms-md-3 mt-3 mt-md-0">
+      <div class="project-copy flex-grow-1 ms-md-3 mt-3 mt-md-0">
         <h3>{{ item.name }}</h3>
-        <p class="fw-lighter">{{ item.desc }}</p>
+        <p class="project-desc fw-lighter">{{ item.desc }}</p>
         <p class="project-uses">Uses: {{ item.uses }}</p>
-        {% if item.link == "#" %}
+        {% if item.link == "#" or item.link == "N/A" %}
         <p class="project-link">Not Available</p>
         {% else %}
         <a class="link-primary project-link" href="{{ item.link }}">Link</a>
