@@ -59,17 +59,19 @@ title: "CD Github Hub"
           <h3 class="proproject-mobile-title fw-lighter">{{ item.name }}</h3>
           <div class="flex-shrink-0">
             {% if item.gallery %}
-            <div class="project-mobile-shot-strip" aria-label="{{ item.name }} screenshots">
-              {% for image in item.gallery %}
-              <img
-                class="project-mobile-shot rounded-6"
-                src="{{ image.src | relative_url }}"
-                alt="{{ item.name }} screenshot {{ forloop.index }}"
-                width="{{ image.width }}"
-                height="{{ image.height }}"
-                loading="lazy"
-                decoding="async">
-              {% endfor %}
+            <div class="project-mobile-shot-frame" data-mobile-gallery>
+              <div class="project-mobile-shot-strip" aria-label="{{ item.name }} screenshots">
+                {% for image in item.gallery %}
+                <img
+                  class="project-mobile-shot rounded-6"
+                  src="{{ image.src | relative_url }}"
+                  alt="{{ item.name }} screenshot {{ forloop.index }}"
+                  width="{{ image.width }}"
+                  height="{{ image.height }}"
+                  loading="lazy"
+                  decoding="async">
+                {% endfor %}
+              </div>
             </div>
             {% else %}
             <img class="rounded-6 img-small" src="{{ item.img | relative_url }}" alt="{{ item.name }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy" decoding="async">
@@ -168,17 +170,19 @@ title: "CD Github Hub"
       <div class="fun-project-mobile-content d-flex flex-column align-items-center text-center pt-3">
         <div class="flex-shrink-0">
           {% if item.gallery %}
-          <div class="project-mobile-shot-strip" aria-label="{{ item.name }} screenshots">
-            {% for image in item.gallery %}
-            <img
-              class="project-mobile-shot rounded-6"
-              src="{{ image.src | relative_url }}"
-              alt="{{ item.name }} screenshot {{ forloop.index }}"
-              width="{{ image.width }}"
-              height="{{ image.height }}"
-              loading="lazy"
-              decoding="async">
-            {% endfor %}
+          <div class="project-mobile-shot-frame" data-mobile-gallery>
+            <div class="project-mobile-shot-strip" aria-label="{{ item.name }} screenshots">
+              {% for image in item.gallery %}
+              <img
+                class="project-mobile-shot rounded-6"
+                src="{{ image.src | relative_url }}"
+                alt="{{ item.name }} screenshot {{ forloop.index }}"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+                loading="lazy"
+                decoding="async">
+              {% endfor %}
+            </div>
           </div>
           {% else %}
           <img class="rounded-6 img-small p-3" src="{{ item.img | relative_url }}" alt="{{ item.name }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy" decoding="async">

@@ -1,7 +1,38 @@
 window.addEventListener('DOMContentLoaded', () => {
+  const mobileGalleries = Array.from(document.querySelectorAll('[data-mobile-gallery]'));
+  const updateMobileGalleryHint = (gallery) => {
+    const strip = gallery.querySelector('.project-mobile-shot-strip');
+
+    if (!strip || strip.offsetParent === null) {
+      return;
+    }
+
+    const maxScrollLeft = strip.scrollWidth - strip.clientWidth;
+    const scrollLeft = Math.max(0, strip.scrollLeft);
+    const canScroll = maxScrollLeft > 1;
+
+    gallery.classList.toggle('can-scroll-left', canScroll && scrollLeft > 1);
+    gallery.classList.toggle('can-scroll-right', canScroll && scrollLeft < maxScrollLeft - 1);
+  };
+  const updateMobileGalleryHints = () => {
+    mobileGalleries.forEach(updateMobileGalleryHint);
+  };
+
+  mobileGalleries.forEach((gallery) => {
+    const strip = gallery.querySelector('.project-mobile-shot-strip');
+
+    strip?.addEventListener('scroll', () => {
+      updateMobileGalleryHint(gallery);
+    }, { passive: true });
+  });
+
+  window.addEventListener('resize', updateMobileGalleryHints);
+  document.addEventListener('shown.bs.collapse', updateMobileGalleryHints);
+
   const selector = document.querySelector('#proproject-mobile-selector');
 
   if (!selector) {
+    updateMobileGalleryHints();
     return;
   }
 
@@ -31,6 +62,8 @@ window.addEventListener('DOMContentLoaded', () => {
       indicator.classList.toggle('active', isActive);
       indicator.toggleAttribute('aria-current', isActive);
     });
+
+    requestAnimationFrame(updateMobileGalleryHints);
   };
 
   previousButton?.addEventListener('click', () => {
@@ -48,4 +81,5 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   showProject(activeIndex);
+  updateMobileGalleryHints();
 });
