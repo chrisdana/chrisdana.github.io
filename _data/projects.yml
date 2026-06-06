@@ -82,6 +82,29 @@
         Access is invite only.
   uses: React, TypeScript, Vite, Tailwind CSS, Firebase, Gemini 1.5 Flash via @google/genai
   link: "https://vinovibe-ai-sommelier-558421329552.us-west2.run.app"
+- name: "Air Quality Sensor and Dashboard"
+  img: assets/images/fun/air-sensor-1.png
+  width: 560
+  height: 1116
+  gallery:
+    - src: assets/images/fun/air-sensor-1.png
+      width: 560
+      height: 1116
+    - src: assets/images/fun/air-sensor-2.png
+      width: 560
+      height: 1098
+    - src: assets/images/fun/air-sensor-3.png
+      width: 560
+      height: 1116
+  desc: >
+        An air quality sensor built with a Raspberry Pi Zero 2W and a BME680 
+        environmental sensor, with a React dashboard to display real-time and 
+        historical data. The sensor agent is remotely configurable from the 
+        dashboard, allowing adjustments to the reporting frequency and thresholds 
+        for temperature, humidity, pressure, and air quality index. Currently 
+        only serves the local network.
+  uses: React, TypeScript, Vite, Tailwind CSS, better-sqlite3, Python, i2C
+  link: "N/A"
 - name: "FlexLogic: AI Fitness Planner"
   img: assets/images/fun/flexlogic-1.png
   width: 560
@@ -106,7 +129,7 @@
         meet your goals while fitting into your unique schedule. Access is invite only.
   uses: React, TypeScript, Vite, Tailwind CSS, Firebase, Gemini 1.5 Flash via @google/genai
   link: "https://flexlogic-898322307042.us-west2.run.app"
-- name: Peg Game
+- name: Apple Watch Peg Game
   img: assets/images/fun/peg-game.png
   width: 396
   height: 484
